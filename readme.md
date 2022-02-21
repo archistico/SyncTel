@@ -18,20 +18,17 @@ Synchronize and merge your photos on Android smartphone to pc folder with ADB
 ```
 python syntel.py
 ```
+## Changelog
+- 20220221 fixed error space
+```
+ATTENZIONE CON GLI SPAZI
+QUESTI FUNZIONANO, IN UNO CI VUOLE LO SLASH NELL'ALTRO NO  
+- adb shell ls "sdcard/WhatsApp/Media/WhatsApp\ Video/"
+- adb pull "sdcard/WhatsApp/Media/WhatsApp Video/VID-20190304-WA0002.mp4" "./export/a.mp4"
+```
 
 ## Todo
-- choise if erase after copy image on smarphone  
-  ```adb shell rm sdcard/download/file.ext```
-- parameter on cli
-- fix: filename with space
-- add \ before the space char: adb shell ls "sdcard/WhatsApp/Media/Prova\ folder"
-- add folder WhatsApp Audio
-- add folder WhatsApp Documents
-- add folder WhatsApp Images
-- add folder WhatsApp Stickers
-- add folder WhatsApp Video
-- add folder WhatsApp Voice Notes
-- add send... :)
+- parameter on yaml
 
 ## Flowchart
 
