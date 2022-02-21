@@ -20,8 +20,10 @@ python syntel.py
 ```
 
 ## Todo
-- choise if erase after copy image on smarphone
+- choise if erase after copy image on smarphone  
+  ```adb shell rm sdcard/download/file.ext```
 - parameter on cli
+- fix: filename with space
 
 ## Flowchart
 
