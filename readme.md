@@ -24,6 +24,14 @@ python syntel.py
   ```adb shell rm sdcard/download/file.ext```
 - parameter on cli
 - fix: filename with space
+- add \ before the space char: adb shell ls "sdcard/WhatsApp/Media/Prova\ folder"
+- add folder WhatsApp Audio
+- add folder WhatsApp Documents
+- add folder WhatsApp Images
+- add folder WhatsApp Stickers
+- add folder WhatsApp Video
+- add folder WhatsApp Voice Notes
+- add send... :)
 
 ## Flowchart
 
